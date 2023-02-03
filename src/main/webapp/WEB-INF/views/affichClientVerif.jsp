@@ -14,6 +14,7 @@
 
 <% Client c = (Client) request.getServletContext().getAttribute("clientSession"); %>
 
+<h2>Vérification avant enregistrement :</h2>
 		
 	<div class="container">
         <div class="ligne">
@@ -40,8 +41,9 @@
     </div>
     
     <form action="AjoutClient" method="post">
-		<input type="hidden" name="etape" value="enregistrementClient">
-		<input type="submit" value="Enregistrer">
+		<!-- <input type="hidden" name="etape" value="enregistrementClient"> -->
+		<input type="submit" name="etape" value="Enregistrer">
+		<input type="submit" name="etape" value="Retour">
 	</form>
 
 </body>

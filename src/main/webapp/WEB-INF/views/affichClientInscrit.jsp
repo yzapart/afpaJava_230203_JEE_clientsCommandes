@@ -14,7 +14,7 @@
 
 	<% Client c = (Client) request.getServletContext().getAttribute("clientSession"); %>
 
-	<h1>Client enregistré : </h1>	
+	<h1>Confirmation enregistrement client : </h1>	
 	
 	<div class="container">
         <div class="ligne">
@@ -39,6 +39,7 @@
         </div>
     </div>
    
+   <a href="index.html">Accueil</a>
 
 </body>
 </html>

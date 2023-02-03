@@ -32,6 +32,10 @@ span {
     justify-content: center;
 }
 
+input.champManquant {
+	background-color: red !important;	
+}
+
 #checkbox_langages {
     width: 100%;
     display: flex;
