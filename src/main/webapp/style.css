@@ -1,0 +1,40 @@
+.container {
+    width: 400px;
+    /* background-color: red; */
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+.ligne {
+    display: flex;
+    flex-direction:row;
+    justify-content: left;
+    margin: 5px;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.span--intitule {
+    font-weight: bold;
+}
+
+.send {
+    display: flex;
+    justify-content: center;
+}
+
+#checkbox_langages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
